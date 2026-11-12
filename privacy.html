@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy &amp; credits · aesthe</title>
+<meta name="robots" content="index,follow">
+<style>
+:root{--red:#e11d2e;--ink:#161616;--mute:#666;--line:#eee}
+*{box-sizing:border-box}body{margin:0;font:16px/1.6 system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:var(--ink);background:#fff}
+main{max-width:760px;margin:0 auto;padding:28px 20px 60px}
+.logo{font-size:28px;font-weight:800;letter-spacing:-1px;color:var(--red)}.logo i{color:#000;font-style:normal}
+h1{font-size:30px;letter-spacing:-.8px;margin:14px 0 4px}h2{font-size:20px;margin:34px 0 6px;letter-spacing:-.3px}
+p,li{color:#333}li{margin:4px 0}small,.m{color:var(--mute)}a{color:#b3121f}
+table{border-collapse:collapse;width:100%;font-size:14px;margin:10px 0}th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--mute);font-weight:600}
+.box{background:#fff4f4;border-radius:14px;padding:12px 16px;margin:16px 0}
+@media(prefers-color-scheme:dark){body{background:#111;color:#eee}p,li{color:#ccc}.box{background:#2a1518}th,td{border-color:#333}a{color:#ff8a93}.logo i{color:#fff}}
+</style></head><body><main>
+<div class="logo">aesthe<i>.</i></div>
+<p><a href="./">← Back to the map</a></p>
+<h1>Privacy &amp; credits</h1>
+<p class="m">Last updated: 14 October 2026</p>
+
+<div class="box"><b>In short:</b> aesthe has no accounts, no ads, no analytics and no tracking cookies. Your saved places, recent searches and photos stay on your device. To find places, routes and photos, the app has to send what you search for and the map area you are viewing to the map services listed below.</div>
+
+<h2>What aesthe uses</h2>
+<ul>
+<li><b>Your location</b>, only if you allow it in the welcome message or tap the location button. It is used on your device to centre the map. It is sent to a service only when you ask for something that needs it (places near you, directions, or the weather where you are, which is rounded to about 1 km first). If you tap "Use my location" on the weather card, aesthe remembers only that you chose it, and asks the browser for your location again on later visits.</li>
+<li><b>What you search for</b> and the <b>area of the map you are looking at</b>. These are sent to the search and map-data services to get results.</li>
+<li><b>Photos you add</b> to a place. They are resized and stored only in your browser. They are never uploaded.</li>
+</ul>
+
+<h2>Stored on your device</h2>
+<p>Saved places, recent searches, your settings (map style, language, voice, photos on/off), photos you added, map files you saved for offline use, and, if you choose to enter one, your optional Mapillary token. This lives in your browser's storage. You can remove all of it at any time with <b>About &rarr; Clear my data</b>, or by clearing this site's data in your browser settings.</p>
+
+<h2>Services that receive requests</h2>
+<p>Like any website that fetches data from other servers, these services can see your IP address and the request itself. Each has its own policy.</p>
+<table>
+<tr><th>Service</th><th>Used for</th><th>Receives</th></tr>
+<tr><td><a href="https://openfreemap.org">OpenFreeMap</a></td><td>Map tiles and labels</td><td>The map area you view</td></tr>
+<tr><td><a href="https://photon.komoot.io">Photon</a> (Komoot)</td><td>Suggestions while you type</td><td>Your search text and the rough centre of the map (rounded)</td></tr>
+<tr><td><a href="https://nominatim.org">Nominatim</a> (OpenStreetMap Foundation; <a href="https://operations.osmfoundation.org/policies/nominatim/">usage policy</a>)</td><td>Full search when you press Enter, and the address of a spot you tap</td><td>Your search text or the tapped coordinates</td></tr>
+<tr><td><a href="https://overpass-api.de">Overpass API</a></td><td>Places nearby, extra names, borders</td><td>The map area, category searched</td></tr>
+<tr><td><a href="https://routing.openstreetmap.de">routing.openstreetmap.de</a> (OSRM)</td><td>Directions</td><td>Start and end points of a route</td></tr>
+<tr><td><a href="https://eox.at">EOX</a> <span class="m">(only while Satellite is on; or <a href="https://www.esri.com">Esri</a> / <a href="https://www.maptiler.com">MapTiler</a> if this site&rsquo;s owner added their key)</span></td><td>Satellite pictures</td><td>The map area you view (tile positions)</td></tr>
+<tr><td><a href="https://open-meteo.com">Open-Meteo</a></td><td>Weather forecast</td><td>The position of the place you opened, or of your location if you chose &ldquo;Use my location&rdquo;, rounded to 2 decimals (about 1&nbsp;km)</td></tr>
+<tr><td><a href="https://commons.wikimedia.org">Wikimedia Commons</a>, <a href="https://www.wikipedia.org">Wikipedia</a>, <a href="https://www.wikidata.org">Wikidata</a></td><td>Photos of a marked place</td><td>The coordinates and name of a place you marked</td></tr>
+<tr><td><a href="https://www.mapillary.com">Mapillary</a> <span class="m">(optional)</span></td><td>Street-level photos</td><td>Coordinates of a marked place and your token</td></tr>
+</table>
+<p>If this copy of aesthe is set up with its own API server, that server relays the search, routing and nearby-place requests and may keep ordinary request logs (such as IP address and time) for up to <b>[add retention period, e.g. 14 days]</b> to prevent abuse.</p>
+
+<h2>Directions and safety</h2>
+<p>Routes and directions come from community map data and may be wrong or out of date. Check road signs and local rules. Do not use your phone while driving. aesthe is provided as is, without any guarantee of accuracy or availability.</p>
+
+<h2>Photos</h2>
+<p>Photos hung above a marked place come from the sources shown under each photo. Wikimedia Commons photos are shared under free licences (such as CC BY-SA); the photographer and licence are shown under the photo and when you open it. A photo marked "nearby" shows something close to the place, not necessarily the place itself.</p>
+
+<h2>Children</h2>
+<p>aesthe is not directed at children under 13 and does not knowingly collect personal information from anyone.</p>
+
+<h2 id="credits">Credits &amp; licences</h2>
+<ul>
+<li>Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, available under the <a href="https://opendatacommons.org/licenses/odbl/">Open Database Licence</a>.</li>
+<li>Map tiles and style by <a href="https://openfreemap.org">OpenFreeMap</a>, © <a href="https://openmaptiles.org/">OpenMapTiles</a>, data from OpenStreetMap.</li>
+<li>Map engine: <a href="https://maplibre.org">MapLibre GL JS</a> (BSD-3-Clause).</li>
+<li>Weather: <a href="https://open-meteo.com">Open-Meteo.com</a> (CC BY 4.0).</li>
+<li>Satellite view: <a href="https://s2maps.eu">Sentinel-2 cloudless</a> by <a href="https://eox.at">EOX IT Services GmbH</a> (contains modified Copernicus Sentinel data 2025; CC BY-NC-SA 4.0), unless your site chose another provider: sharp pictures then come from Esri (Esri, Maxar, Earthstar Geographics, and the GIS User Community) or MapTiler (&copy; MapTiler and its imagery providers), credited on the map while Satellite is on.</li>
+<li>Search: <a href="https://photon.komoot.io">Photon</a> and <a href="https://nominatim.org">Nominatim</a>. Nearby places: Overpass API. Directions: OSRM.</li>
+<li>Photos: <a href="https://commons.wikimedia.org">Wikimedia Commons</a> and <a href="https://www.wikipedia.org">Wikipedia</a> (individual licences shown with each photo); <a href="https://www.mapillary.com">Mapillary</a> (CC BY-SA 4.0).</li>
+</ul>
+
+<h2>Contact</h2>
+<p>Questions or requests about your data: <b>[add your contact email]</b></p>
+</main></body></html>
